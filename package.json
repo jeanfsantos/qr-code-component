@@ -1,0 +1,27 @@
+{
+  "name": "qr-code-component-main",
+  "version": "1.0.0",
+  "description": "QR code component challenge on Frontend Mentor",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./style.css -o ./dist/style.css --watch",
+    "build": "npx tailwindcss -i ./style.css -o ./dist/style.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jeanfsantos/qr-code-component.git"
+  },
+  "keywords": [
+    "QR code",
+    "challenge",
+    "Frontend Mentor"
+  ],
+  "author": "Jean Santos <jeanwfsantos@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeanfsantos/qr-code-component/issues"
+  },
+  "homepage": "https://github.com/jeanfsantos/qr-code-component#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
